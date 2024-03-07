@@ -1,0 +1,143 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: none;
+    padding-left: 30%;
+
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: orangered;
+  }
+  .content1{
+    display: flex;
+    gap: 20px;
+    padding-left: 25%;
+    margin-right: 10%;
+  }
+  #header{
+    border: solid 2px;
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+  }
+
+  #link{
+    color: #ddd;
+  }
+  #link2{
+    color: orangered;
+    font-size: smaller;
+  }
+  .info{
+    display: flex;
+    gap: 40%;
+  }
+
+  .grid2{
+    display: flex;
+    gap: 10px;
+    font-size: smaller;
+  }
+  #words{
+    text-align: center;
+  }
+  .content2{
+    text-align: center;
+  }
+  .icons{
+    display: flex;
+    gap: 10%;
+    margin-right: 10%;
+    padding-left: 25%;
+  }
+  .icons1{
+    display: flex;
+    gap: 17%;
+    margin-right: 10%;
+    padding-left: 25%;
+  }
+  .grid{
+    display: flex;
+    gap: 35px;
+    padding-left: 35%;
+  }
+
+  #para{
+    text-align: center;
+  }
+  .grid3{
+    display:flex;
+  gap: 0%;
+
+  }
+  #form{
+    background-color: blue;
+    width: 100%;
+  }
+  #button{
+    background-color: orange;
+    color: #ddd;
+  }
+  .texts{
+    font-size: larger;
+    width: 48%;
+    background-color: orange;
+    color: #ddd;
+    padding-left: 30%;
+  }
+  .quotes{
+    display: inline-flex;
+    column-gap: 80px;
+  
+  }
+  .content3{
+    text-align: center;
+  }
+  .company{
+    display: inline-flex;
+  gap: 10px;
+  padding-left: 20%;
+  }
+  .footer{
+    background-color: orange;
+    color: #ddd;
+    width: 100%;
+  text-align: center;
+    display: flex;
+    gap: 20%;
+    padding-bottom: 100px;
+  }
+  .button2{
+background-color: black;
+color: #ddd;
+  }
+  .footer2{
+    display: flex;
+    background-color: black;
+    color: #ddd;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+  #body{
+    margin: auto;
+    @media Screen and(max-width:600px) {
+      width: 100%;
+  }
+ 
+  }
+  
